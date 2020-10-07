@@ -1,7 +1,5 @@
 pipeline {
-    agent {label 'aws-docker'}
-    environment {
-    }
+    agent {}
     stages {
         stage('Build') {
             steps {
